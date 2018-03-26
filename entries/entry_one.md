@@ -5,7 +5,7 @@ For the past week I have been looking through the different topics that I would 
 ## Why? 
 While going through the list of options the word **_bot_** stood out to me. I always heard of different bots so I thought this would be something similar. A bot is set to do different tasks. I know some can autofill, auto checkout, auto tweet, and all sorts of tasks. 
 
-<img src = "https://3vowli249lp13hl4bz2ku62r-wpengine.netdna-ssl.com/wp-content/uploads/index51-1200x1200.png" align = "right" height = 30% width = 30%>  
+<!--<img src = "https://3vowli249lp13hl4bz2ku62r-wpengine.netdna-ssl.com/wp-content/uploads/index51-1200x1200.png" align = "right" height = 30% width = 30%>  -->
  
 A twitter bot is a bot software that allows the system to control a twitter account through the Twitter API. This means that it will require ruby using keys, access token, gems like `gem install twitter` and other ruby related terms. I noticed that this is similar to using MVC (model, view and control), but the view will be on the twitter page. 
 
