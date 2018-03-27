@@ -6,6 +6,7 @@ For the past week, I have been looking through the different topics that I would
 While going through the list of options the word **_bot_** stood out to me. I always heard of different bots so I thought this would be something similar. A bot is set to do different tasks. I know some can autofill, auto checkout, auto tweet, and all sorts of tasks. 
 
 <img src = "https://3vowli249lp13hl4bz2ku62r-wpengine.netdna-ssl.com/wp-content/uploads/index51-1200x1200.png" align = "right" height = 30% width = 30%> 
+
  
 A twitter bot is a bot software that allows the system to control a twitter account through the Twitter API. This means that it will require ruby using keys, access token, gems like `gem install twitter` and other ruby related terms. I noticed that this is similar to using MVC (model, view, and control), but the view will be on the twitter page. 
 
@@ -13,9 +14,11 @@ A twitter bot is a bot software that allows the system to control a twitter acco
 The function of a twitter bot is to simply be able to tweet, retweet, like, follow, unfollow, or direct message other accounts on its own. 
 This reminds me of how technology has advanced and what other cool bots are out there. 
 
-
+© 
 ## Change in plan...
 I thought bots were really cool since it could function on its own, but I wasn't sure what I could do with it after learning how to make one. There are plenty of tutorials online teaching users how to make a [twitter bot](http://www.codebycodes.com/blog/2015/08/31/creating-a-simeple-twitter-bot-with-ruby). Therefore, I decided to change my topic to SASS.
+
+
 
 ## What is SASS 
 SASS stands for _Syntactically Awesome StyleSheets_. It is an addition to CSS. SASS is a way to make our code DRY... meaning "don't repeat yourself" which also makes your code more sufficient. This is because there are features like _variables, nesting, mixins, inheritance_ and etc that allows us as users to use CSS in a more convenient way. 
@@ -105,3 +108,8 @@ converts to...
 }
 
 ```
+
+### Take Aways
+1. Look through multiple links for infomation on your topic when you are googling.
+2. Use resouces like Code Academy 
+3. Start with the basics. Knowing the terms and what the function of your topic. Then start to simple and learn the basics.  
