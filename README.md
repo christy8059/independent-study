@@ -1,6 +1,6 @@
 ## Table of Contents
 
-* [Entry 1: Intro / Plan](entries/entry_one.md)
++ [Entry 1: Intro / Plan](entries/entry_one.md)
 + Entry 2:
 + Entry 3: 
 + Entry 4:

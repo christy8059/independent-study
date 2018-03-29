@@ -14,7 +14,8 @@ A twitter bot is a bot software that allows the system to control a twitter acco
 The function of a twitter bot is to simply be able to tweet, retweet, like, follow, unfollow, or direct message other accounts on its own. 
 This reminds me of how technology has advanced and what other cool bots are out there. 
 
-© 
+###### ©isBuzznews | Ong Yew Chuan 
+
 ## Change in plan...
 I thought bots were really cool since it could function on its own, but I wasn't sure what I could do with it after learning how to make one. There are plenty of tutorials online teaching users how to make a [twitter bot](http://www.codebycodes.com/blog/2015/08/31/creating-a-simeple-twitter-bot-with-ruby). Therefore, I decided to change my topic to SASS.
 
@@ -109,7 +110,8 @@ converts to...
 
 ```
 
-### Take Aways
+### Takeaways
 1. Look through multiple links for infomation on your topic when you are googling.
 2. Use resouces like Code Academy 
-3. Start with the basics. Knowing the terms and what the function of your topic. Then start to simple and learn the basics.  
+3. Start with the basics. Knowing the terms and what the function of your topic. Then start to simple and learn the basics. 
+
