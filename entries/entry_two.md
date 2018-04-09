@@ -26,27 +26,23 @@ First, let me explain how to connect your command line with twitter.
 **Step 3:** Create a file.  ``` touch filename.rb ```<br> 
 *_note: we are using ruby therefore it is an .rb file_*
 
-**Step 4:** In order to use certain syntax we have to install a Twitter Gem using the syntax :``` gem install twitter ```  By doing so c9 knows what we're referring to when using specific command for twitter. <br> 
-
+**Step 4:** In order to use certain syntax we have to install a Twitter Gem using the syntax :``` gem install twitter ``` . By doing so c9 knows what we're referring to when using specific commands refering to twitter. <br> 
 
 **Step 5:** Now to actually connect it to twitter we have to create a client, which is like creating a user. In this client (user) we have to input the configuration variables. 
 
 <img src=../images/client.png> <br>
 
 <br>
-The variables consist of keys and tokens. They can be found in the Keys and Access Tokens tab. 
+The variables consist of keys and tokens. They can be found in the "Keys and Access Tokens" tab of the app. 
 
 <br> 
 <img src=../images/keyandaccess.png> 
 <br> 
 
-** ATTENTION ** Keep this code private because it is the "password" to your twitter account. 
+** ATTENTION ** Keep this code private 
 <br> 
 
-
-
 Within the parenthesis you fill in your key and access code according to your account. The keys and access code acts as passwords to log into your twitter therefore it is unique. Now you are done and ready to cold from your command line. 
-
 
 
 ## To Test
@@ -67,7 +63,6 @@ This simply tweets from your command line. We have to call client and tell the o
 
 #### *_To look for tweets with certain keywords or hash tags_*
 
-
 ```
 client.search("#school").take(1).each do |tweet|
   puts "#{tweet.user.screen_name}: #{tweet.text}"
@@ -79,7 +74,7 @@ end
 <img src=../images/search.png>
 <br> 
 
-The line of code tells the client object to look for any tweets that has the hashtag of school. Then take the first result and puts the username and the tweet in the command line.
+The line of code tells the client object to look for any tweets that has the hashtag of school. Then take the first result and print the username and the tweet in the command line.
 <br> 
 
 # Next steps
