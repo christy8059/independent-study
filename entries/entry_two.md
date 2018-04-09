@@ -69,7 +69,7 @@ end
 
 ### Example:
 <br>
-<img src=../images/myex.png>
+<img src=../images/search.png>
 <br> 
 
 The line of code tells the client object to look for any tweets that has the hashtag of school. Then take the first result and puts the username and the tweet in the command line.
