@@ -46,7 +46,7 @@ Within the parenthesis you fill in your key and access code according to your ac
 
 Every time you test the line of code you will have to run ```ruby filename```
 
-_To post something on twitter:_ 
+#### _To post something on twitter:_ 
 
 ```
 client.update('whatever you want to tweet')
@@ -55,3 +55,21 @@ client.update('whatever you want to tweet')
 <img src=../images/myex.png>
 
 This simply tweets from your command line. We have to call client and tell the object what we want to do. In order to tweet we have to add ```.update``` followed by parenthesis and single quotation mark. 
+
+
+
+#### *_To look for tweets with certains keywords or hashtags_*
+
+
+```
+client.search("#school").take(1).each do |tweet|
+  puts "#{tweet.user.screen_name}: #{tweet.text}"
+end
+```
+
+### Example:
+<br>
+<img src=../images/myex.png>
+<br> 
+
+The line of code tells the client object to look for any tweets that has the hashtag of school. Then take the first result and puts the username and the tweet in the command line.
