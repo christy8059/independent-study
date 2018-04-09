@@ -73,3 +73,13 @@ end
 <br> 
 
 The line of code tells the client object to look for any tweets that has the hashtag of school. Then take the first result and puts the username and the tweet in the command line.
+<br> 
+
+# Next steps
+Since I chose to study twitter bots there are still so many things that I have yet to discover. Therefore, I will continue to test out the different commands that I could do on the command line. I would also like to see if I can use conditions to combine multiple commands. I don't have a complete picture of what I want to do but I believe that while I tinker around with the bot ideas will come to me. 
+
+# Takeaways 
+
+- The internet is your friend. Spend more time looking at different sources.
+- Learning on your own means to tinker and test out certain lines of code to understand its functionality.(Code along tutorials) 
+- Comments are important because they help me better understand the syntax and also functions as notes for the future self. 
