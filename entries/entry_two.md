@@ -9,7 +9,7 @@ Want to know how?
 ## Connecting to Twitter 
 With the help of a [Ruby Twitter Bot](http://www.codebycodes.com/blog/2015/08/31/creating-a-simeple-twitter-bot-with-ruby) tutorial that I found online, I was able to learn how to connect the command line on [Cloud9](https://c9.io) to an existing twitter account (ie: mine).
 
-Twitter is a social platform were individuals go on from online or on their phones. But with a few lines of code from the command line we can also do the same or even more incredible things. Besides what I mentioned in entry one I learned the syntax needed to tweet and to search for a specific tag then retweeting it. 
+Twitter is a social platform was individuals go on from online or on their phones. But with a few lines of code from the command line we can also do the same or even more incredible things. Besides what I mentioned in entry one I learned the syntax needed to tweet and to search for a specific tag then retweeting it. 
 
 First, let me explain how to connect your command line with twitter. 
 
@@ -29,7 +29,7 @@ First, let me explain how to connect your command line with twitter.
 
 **Step 5:** Now to actually connect it to twitter we have to create a client, which is like creating a user. In this client (user) we have to input the configuration variables. 
 <br>
-The variables consists of keys and tokens. They can be found in the Keys and Access Tokens tab. <br> 
+The variables consist of keys and tokens. They can be found in the Keys and Access Tokens tab. <br> 
 <img src=../images/keyandaccess.png> 
 <br> 
 
@@ -58,7 +58,7 @@ This simply tweets from your command line. We have to call client and tell the o
 
 
 
-#### *_To look for tweets with certains keywords or hashtags_*
+#### *_To look for tweets with certain keywords or hash tags_*
 
 
 ```
@@ -81,5 +81,5 @@ Since I chose to study twitter bots there are still so many things that I have y
 # Takeaways 
 
 - The internet is your friend. Spend more time looking at different sources.
-- Learning on your own means to tinker and test out certain lines of code to understand its functionality.(Code along tutorials) 
-- Comments are important because they help me better understand the syntax and also functions as notes for the future self. 
+- Learning on your own means to tinker and test out certain lines of code to understand its functionality. (Code along tutorials) 
+- Comments are important because they help me better understand the syntax and also functions as notes for the future self.
