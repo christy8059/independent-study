@@ -30,7 +30,7 @@ First, let me explain how to connect your command line with twitter.
 **Step 5:** Now to actually connect it to twitter we have to create a client, which is like creating a user. In this client (user) we have to input the configuration variables. 
 <br>
 The variables consists of keys and token. They can be found in the Keys and Access Token tab. <br> 
-<img src=../images/twitterapp.png> 
+<img src=../images/myex.png> 
 <br> 
 
 ** ATTENTION ** Keep this code private because it is the "password" to your twitter account. 
