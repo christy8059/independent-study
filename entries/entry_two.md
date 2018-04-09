@@ -9,7 +9,7 @@ Want to know how?
 ## Connecting to Twitter 
 With the help of a [Ruby Twitter Bot](http://www.codebycodes.com/blog/2015/08/31/creating-a-simeple-twitter-bot-with-ruby) tutorial that I found online, I was able to learn how to connect the command line on [Cloud9](https://c9.io) to an existing twitter account (ie: mine).
 
-Twitter is a social platform was individuals go on from online or on their phones. But with a few lines of code from the command line we can also do the same or even more incredible things. Besides what I mentioned in entry one I've learned the syntax needed to tweet and to search for a specific tag then retweeting it. 
+Twitter is a social platform where individuals go on from online or on their phones. But with a few lines of code from the command line we can also do the same or even more incredible things. Besides what I mentioned in entry one I've learned the syntax needed to tweet and to search for a specific tag then retweeting it. 
 
 First, let me explain how to connect your command line with twitter. 
 
