@@ -2,7 +2,7 @@
 
 + [Entry 1: Intro / Plan](entries/entry_one.md)
 + [Entry 2: Connecting To Twitter](entries/entry_two.md)
-+ [Entry 3:](entries/entry_three.md)
++ [Entry 3: Exploring Twitter Methods](entries/entry_three.md)
 + Entry 4:
 + Entry 5:
 + Entry 6: 
