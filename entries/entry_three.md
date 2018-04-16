@@ -6,14 +6,16 @@ After figuring out how to tweet from the console I was excited to lean other coo
 These command can be used by inputting their screen name or id. 
 
 #### To follow: 
-client.follow('userscreenname') // client.follow (id#)
+```client.follow('userscreenname')``` 
+```client.follow (id#)```
 
 #### To unfollow: 
-client.unfollow('userscreenname') // client.follow (id#)
+```client.unfollow('userscreenname')```  
+```client.follow (id#)```
 
 
 #### To see how many follower: 
-client.user(screen_name).followers_count
+```client.user(screen_name).followers_count```
 
 <img src="../images/followers.png">
 
