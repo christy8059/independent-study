@@ -15,7 +15,7 @@ client.unfollow('userscreenname') // client.follow (id#)
 #### To see how many follower: 
 client.user(screen_name).followers_count
 
-<img src="../images/followers.png"> 
+<img src="../images/followers.png">
 
 This image shows that I am looking at a specific username (mine) and putting the nummer of followers into the console.
 
