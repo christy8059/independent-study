@@ -19,9 +19,29 @@ client.user(screen_name).followers_count
 
 This image shows that I am looking at a specific username (mine) and putting the nummer of followers into the console.
 
-#### To 
 
+This weeks focus was mainly to look for more documentation and other souces that can help me learn. I was able to learn how to follow, unfollow and see how many followers. 
 
+I decided to create something with what I leared so far. 
 
+<img src="../images/trial.png">
+
+So what this block of code means is check if I have more than 20 followers. If I have more than 20 followers than I would tweet "I have more than 20 followers". If I have less than 20, then I would look for someone who posted a hashtag of hi and follow them. 
+
+```
+client.search("#hi").take(1).each do |tweet|
+    @name = "#{tweet.user.screen_name}"
+      end 
+       
+followers = client.user('me').followers_count
+
+if followers > 20 
+    client.update('I have more than 20 followers')
+else 
+  client.follow(@name)
+       
+end
+
+```
 
 
