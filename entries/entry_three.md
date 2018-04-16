@@ -20,7 +20,7 @@ These command can be used by inputting their screen name or id.
 
 <img src="../images/followers.png">
 
-This image shows that I am looking for a specific username (mine) and printing the number of followers in the console.
+This image shows that I am looking for a specific username (mine) and printing the number of followers in the console.The number 17 is printed in the console and it matches the number of followers I have. 
 
 # Creating a simple bot
 
