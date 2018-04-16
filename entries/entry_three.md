@@ -19,8 +19,9 @@ client.user(screen_name).followers_count
 
 This image shows that I am looking at a specific username (mine) and putting the nummer of followers into the console.
 
+#### To 
 
-
+client.user(screen_name).following_count
 
 
 
