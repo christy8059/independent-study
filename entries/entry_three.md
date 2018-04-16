@@ -1,6 +1,6 @@
 # Continuing to explore Ruby Twitter Bot! 
 
-After figuring out how to tweet from the console I was excited to learn other cool commands that I could do. Therefore, I was looking for ruby documentations but with limited tutorials that explained different methods, it made it harder for me to study using Ruby. I have also looked for videos on youtube but I found that python and node.js are popular amongst users. Luckily I found a link (linked below). I tired each method out to understand how the syntax work.
+After figuring out how to tweet from the console I was excited to learn other cool commands that I could do. Therefore, I was looking for ruby documentations but with limited tutorials that explained different methods, it made it harder for me to study using Ruby. I have also looked for videos on youtube but I found that python and node.js are popular amongst users. Luckily I found a link (linked below). I tried each method out to understand how the syntax work.
 
 # Methods
 
@@ -47,6 +47,7 @@ end
 ```
 
 *I also noticed that I needed an instance variable because I am reusing it in my if-else statement* 
+
 
 
 # Takeaways
