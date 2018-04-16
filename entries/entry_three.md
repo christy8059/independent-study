@@ -46,7 +46,7 @@ end
 
 ```
 
-* I also noticed that I needed an instance variable because I am reusing it in my if-else statement* 
+*I also noticed that I needed an instance variable because I am reusing it in my if-else statement* 
 
 
 # Takeaways
