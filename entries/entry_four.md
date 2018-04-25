@@ -8,7 +8,7 @@ At first, I tried learning how to view and create direct messages but it didn't 
 **IMPORTANT**
 <img src="../images/permission.png">
 <br>
-In order to *allow access to direct messages* I had to change the customer key and secret. To do so, I went back to the [twitter app](https://apps.twitter.com/) and changed the permission to "Read, Write and Access direct messages"(option 3)  
+In order to _allow access to direct messages_ I had to go back to [twitter app](https://apps.twitter.com/) and chang the permission to "Read, Write and Access direct messages"(option 3). I also needed a new customer key and secret. 
 
 ## DirectMessage 
 ``` ruby
@@ -41,8 +41,8 @@ I realized that it wasn't working when I tried to run ruby bot.rb. Error message
 #favoite a tweet using an ID # 
 client.favoite(id#)
 
-# to unlike a tweet 
-client.unfavorite using ID #
+# to unlike a tweet using ID #
+client.unfavorite(id#)
 ```
 
 At first, I had to play around with the syntax to see how it works. To print it in the console you put the word `puts` before your method and then run `ruby filename.rb`. 
