@@ -77,8 +77,11 @@ client.search('#whatever_you're_searching_for)
 This block of code uses `.seach` to search for specific hashtag 
 
 
+# Takeaways
+- I found it difficult to learn when I am reading methods off. Instead if I do them in C9 I have a better understanding and memorization of it. 
+- 
+- Also try typing in possible method names because the when I run the console it gives me a suggestion to what my method could possible be. Therefore, reading error messages is really important
 
+- Don't stay on one topic if I dont understand it. There are multiple topics and methods that associete with this. In general if something is too hard and you have already googled different solutions it is okay to come back to it. 
 
-
-
-
+- take breaks if encountering problems so new ideas can popup
