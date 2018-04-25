@@ -58,7 +58,7 @@ end
 This block of code searches for the hashtag "disney" using `.search`. Then it takes the first two results (`.take(2)`) and for each one (`.each`) put the screen_name of the user and the tweet that includes the hashtag in the console. lastly, the post is being favorited using `.favorite`.  
 
 <br>
-<img src="../images/favoite.png">
+<img src="../images/favorite.png">
 <br>
 
 Next, I tried the method `.unfavorite` but I needed the tweet ID. Before I got this to work  I was trying `.each` to get the ID first then unfavorite it. This didn't work so I decided to put  `client.favorites` as my parameter since that is the ID # if we just wrote the line `put client.favoites`. 
