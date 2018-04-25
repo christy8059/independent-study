@@ -30,7 +30,7 @@ This week's focus was mainly to look for more documentation and other sources th
 
 So what this block of code means is check if I have more than 20 followers. If I have more than 20 followers than I would tweet "I have more than 20 followers". If I have less than 20, then I would look for someone who posted a hashtag of hi and follows them. 
 
-```
+```ruby
 client.search("#hi").take(1).each do |tweet|
     @name = "#{tweet.user.screen_name}"
       end 
