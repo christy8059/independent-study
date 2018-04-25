@@ -7,8 +7,8 @@ At first, I tried learning how to view and create direct messages but it didn't 
 <br>
 **IMPORTANT**
 <img src="../images/permission.png">
-<br> 
-In order to _allow access to direct messages_ I had to change the customer key and secret. To do so, I went back to the [twitter app](https://apps.twitter.com/) and changed the permission to "Read, Write and Access direct messages"(option 3)  
+<br>
+In order to *_allow access to direct messages_* I had to change the customer key and secret. To do so, I went back to the [twitter app](https://apps.twitter.com/) and changed the permission to "Read, Write and Access direct messages"(option 3)  
 
 ## DirectMessage 
 ``` ruby
@@ -29,19 +29,11 @@ client.direct_message_sent
 ```
 This block of code is possible methods you can do with direct messages. 
 
-I realized that it wasn't working when I tried to run ruby bot.rb. Error messages like "NoMethodError", or "can not access direct_message" showed in the console, therefore I moved on to learning how to favorite tweets. 
+I realized that it wasn't working when I tried to run ruby bot.rb. Error messages like "NoMethodError", or "can not access direct_message" showed in the console. I tried googling but I couldn't find anything helpful. Thus, I moved on to learning how to favorite(liking) tweets. 
 
 <br>
 <img src="../images/direct_error.png">
 <br>
-
-## Seach for a tweet 
-
-``` ruby 
-client.search('#whatever_you're_searching_for)
-```
-This block of code uses `.seach` to search for specific hashtag 
-
 
 ## Favoriting (Liking) Tweets
 
@@ -77,6 +69,12 @@ client.unfavorite(client.favorites)# unlike all
 client.unfavorite(client.favorites.first)#unlike the first liked tweet
 ```
 
+## Seach for a tweet 
+
+``` ruby 
+client.search('#whatever_you're_searching_for)
+```
+This block of code uses `.seach` to search for specific hashtag 
 
 
 
