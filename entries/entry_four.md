@@ -2,12 +2,10 @@
 
 From the beginning of my study, I thought that there weren't documentation for ruby twitter bots. With perseverance, I continued to scroll through and search on google using different keywords like "API twitter and ruby". Turns out this [rubydoc](http://www.rubydoc.info/gems/ifttt-twitter/2.1.1/Twitter/Client) was super helpful. 
 
-At first, I tried learning how to view and create direct messages but it didn't work. It was frustrating because none of my peers nor my teacher studied this topic before. I had to count on my own and google to find answers.
+At first, I tried learning how to view and create direct messages but it didn't work. It was frustrating because none of my peers nor my teacher studied this topic before. I had to count on myself and google solutions to my errors.
 
-
+<br>
 **IMPORTANT**
-
-<br> 
 <img src="../images/permission.png">
 <br> 
 In order to _allow access to direct messages_ I had to change the customer key and secret. To do so, I went back to the [twitter app](https://apps.twitter.com/) and changed the permission to "Read, Write and Access direct messages"(option 3)  
