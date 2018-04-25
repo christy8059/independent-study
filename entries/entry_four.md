@@ -55,13 +55,13 @@ client.search("#disney").take(2).each do |tweet|#seach for this hashtag, take 1s
     client.favorite(tweet) #fav means to like
 end
 ```
-This block of code searches for the hashtag "disney" using `.search`. Then it takes the first two results (`.take(2)`) and for each one (`.each`) put the screen_name of the user and the tweet that includes the hashtag in the console. lastly, the post is being favorited using `.favorite`.  
+This block of code searches for the hashtag "disney" using `.search`. Then it takes the first two results (`.take(2)`) and for each one (`.each`) it puts the screen_name of the user and the tweet that includes the hashtag in the console. Lastly, the post is being favorited using `.favorite`.  
 
 <br>
 <img src="../images/favorite.png">
 <br>
 
-Next, I tried the method `.unfavorite` but I needed the tweet ID. Before I got this to work  I was trying `.each` to get the ID first then unfavorite it. This didn't work so I decided to put  `client.favorites` as my parameter since that is the ID # if we just wrote the line `put client.favoites`. 
+Next, I tried the method `.unfavorite` but I needed the tweet ID. Before I got this to work  I was trying `.each` to get the ID first then unfavorite it. This didn't work so I decided to put  `client.favorites` as my parameter since that is the ID # if we just wrote the line `put client.favoites` a list of ID numbers for the posts that are liked will be in the console. 
 
 
 ``` ruby 
@@ -84,4 +84,4 @@ This block of code uses `.seach` to search for specific hashtag
 
 - Don't stay on one topic if I dont understand it. There are multiple topics and methods that associete with this. In general if something is too hard and you have already googled different solutions it is okay to come back to it. 
 
-- take breaks if encountering problems so new ideas can popup
+- Take breaks if encountering problems so new ideas can popup
