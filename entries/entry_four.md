@@ -8,7 +8,7 @@ At first, I tried learning how to view and create direct messages but it didn't 
 **IMPORTANT**
 <img src="../images/permission.png">
 <br>
-In order to *_allow access to direct messages_* I had to change the customer key and secret. To do so, I went back to the [twitter app](https://apps.twitter.com/) and changed the permission to "Read, Write and Access direct messages"(option 3)  
+In order to *allow access to direct messages* I had to change the customer key and secret. To do so, I went back to the [twitter app](https://apps.twitter.com/) and changed the permission to "Read, Write and Access direct messages"(option 3)  
 
 ## DirectMessage 
 ``` ruby
