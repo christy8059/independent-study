@@ -10,9 +10,7 @@ At first, I tried learning how to view and create direct messages but it didn't 
 <br> 
 <img src="../images/permission.png">
 <br> 
-
 In order to _allow access to direct messages_ I had to change the customer key and secret. To do so, I went back to the [twitter app](https://apps.twitter.com/) and changed the permission to "Read, Write and Access direct messages"(option 3)  
-
 
 ## DirectMessage 
 ``` ruby
@@ -33,7 +31,7 @@ client.direct_message_sent
 ```
 This block of code is possible methods you can do with direct messages. 
 
-I realized that it wasn't working when I tried to run ruby bot.rb. Error messages like "NoMethodError", or "can not access direct_message" therefore I moved on to learning how to favorite tweets. 
+I realized that it wasn't working when I tried to run ruby bot.rb. Error messages like "NoMethodError", or "can not access direct_message" showed in the console, therefore I moved on to learning how to favorite tweets. 
 
 <br>
 <img src="../images/direct_error.png">
@@ -44,6 +42,7 @@ I realized that it wasn't working when I tried to run ruby bot.rb. Error message
 ``` ruby 
 client.search('#whatever_you're_searching_for)
 ```
+This block of code uses `.seach` to search for specific hashtag 
 
 
 ## Favoriting (Liking) Tweets
@@ -56,18 +55,16 @@ client.favoite(id#)
 client.unfavorite using ID #
 ```
 
-At first, I had to play around with the syntax to see how it works. To print it in the console you put the work `puts` before your method and then run `ruby filename.rb`. 
+At first, I had to play around with the syntax to see how it works. To print it in the console you put the word `puts` before your method and then run `ruby filename.rb`. 
 
-After learning simple methods to retrieve some tweet or id I decided to create a small method. 
+After learning simple methods like retrieving tweets or id# I decided to create a small method. 
 
 ```ruby 
 client.search("#disney").take(2).each do |tweet|#seach for this hashtag, take 1st result 
     puts "#{tweet.user.screen_name}: #{tweet.text}"# print in console
     client.favorite(tweet) #fav means to like
 end
-
 ```
-
 This block of code searches for the hashtag "disney" using `.search`. Then it takes the first two results (`.take(2)`) and for each one (`.each`) put the screen_name of the user and the tweet that includes the hashtag in the console. lastly, the post is being favorited using `.favorite`.  
 
 <br>
