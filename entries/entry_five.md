@@ -113,6 +113,6 @@ but when I run ruby it shows an error saying the method `.name` does not exist. 
 
 
 # Takeaways 
-- move on to learning another topic rather than being stuck one thing 
-- take breaks and try other methods to approach a problem 
+- move onto another topic and then come back if I get stuck on something 
+- take breaks and try other ways to fix the problem
 - be determined and pushed through until you accomplished your goal
