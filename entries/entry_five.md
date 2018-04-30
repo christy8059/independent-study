@@ -13,7 +13,7 @@ Since I had no idea what was wrong, I decided to double check on the permission 
 client.create_direct_message('@user_screen_name',"The message you want to send them")
 
 ```
-To create a direct message we can use the method `.create_direct_message`. In the parenthesis I am passing in two arguements. The first one is the user's screen name which is wrapped in one quotation mark with the "@" symbol. Then followed by a comma and double quotes with the message you would like to send to that person. 
+To create a direct message we can use the method `.create_direct_message`. The first one is the user's screen name which is wrapped in one quotation mark with the "@" symbol. Then followed by a comma and double quotes with the message you would like to send to that person. 
 
 As always to run the file you would have to go into your console and type `ruby filename.rb` 
 
@@ -30,8 +30,8 @@ end
 
 This is a random function that I made. This function puts all the messages that I've sent before and prints it out in the console. The most recent one is always the first one. This uses iteration and the method  `.each` to print each one out. 
 
-## Destroying Dm 
-** Note ** : To delete direct messages we have to use the ID #. Each message that is sent and recieved are labeled with a number (like a tag).
+## Destroying DMs 
+**Note** : To delete direct messages we have to use the ID #. Each message that is sent and recieved are labeled with a number (like a tag).
 #### How to get ID numbers for direct messages that you sent
 <br> 
 <img src="../images/sent_id.png">
