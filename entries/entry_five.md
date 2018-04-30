@@ -53,17 +53,6 @@ puts client.direct_messages #show received direct message id
 ```
 The line above uses the command `puts` and the method `.direct_messages` to show the id number for messages that I've received. The default of the method is an ID number. Note: there is only one ID number because I only received one direct message in total. 
 
-### To delete messages received  
-<br> 
-<img src="../images/delete_recieve.png">
-<br> 
-
-``` ruby 
-client.destroy_direct_message(client.direct_messages_sent) #delete message I sent 
-```
-
-This method uses ID numbers to delete direct messages that are sent, therefore we can use `client.direct_messages_sent` as the value to pass as an argument in order to know which message to delete. **Remember `client.direct_messages_sent` prints out the ID nu,ber of the messages that are sent. 
-
 ### To delete messages sent
 
 <br> 
@@ -75,6 +64,17 @@ client.destroy_direct_message(client.direct_messages)#delete messages I receive
 ```
 
 This method uses ID numbers to delete direct messages that are received, therefore we can use `client.direct_messages` as the value to pass as an argument in order to know the which message to delete. **Remember** `client.direct_messages` prints out the ID number of the messages that are being received.
+
+### To delete messages received  
+<br> 
+<img src="../images/delete_recieve.png">
+<br> 
+
+``` ruby 
+client.destroy_direct_message(client.direct_messages_sent) #delete message I sent 
+```
+
+This method uses ID numbers to delete direct messages that are sent, therefore we can use `client.direct_messages_sent` as the value to pass as an argument in order to know which message to delete. **Remember `client.direct_messages_sent` prints out the ID nu,ber of the messages that are sent. 
 
 # Timeline 
 After studying methods for direct messaging I also learned two more methods that grab the tweets on my timeline. 
