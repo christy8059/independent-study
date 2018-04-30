@@ -64,9 +64,8 @@ The line above uses the command `puts` and the method `.direct_messages` to show
 ## To delete messages recieved  
 
 <br> 
-<img src="../images/delete_sent.png>
+<img src="../images/delete_recieve.png">
 <br> 
-
 
 ``` ruby 
 client.destroy_direct_message(client.direct_messages_sent) #delete message I sent 
@@ -78,7 +77,7 @@ This method uses id numbers to delete messages, therefore we can use the
 ## To delete messages sent
 
 <br> 
-<img src="../images/delete_recieve.png>
+<img src="../images/delete_sent.png">
 <br> 
 
 ``` ruby 
@@ -87,18 +86,13 @@ client.destroy_direct_message(client.direct_messages)#delete messages I receieve
 
 This method also uses ID numbers to delete direct_messages receieve, therefore we pass 
 
-
-
-
-
 # Timeline 
 After studying methods for direct messages I also learned two more methods that grabs the the tweets on my timeline. 
 
 
+<br> <br> 
+<img src="../images/timeline_tweet_id.png">
 <br> 
-<img src="../images/timeline_tweet_id.png>
-<br> 
-
 
 ``` ruby 
 puts client.home_timeline # prints the tweet ID on my time line 
@@ -110,7 +104,7 @@ Default it print out the 20 most recent tweet id into the console using `puts`
 ## To print the text of the tweet from timeline
 
 <br> 
-<img src="../images/timeline_text.png>
+<img src="../images/timeline_text.png">
 <br> 
 
 ```ruby 
