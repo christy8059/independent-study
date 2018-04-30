@@ -84,7 +84,7 @@ This method uses id numbers to delete messages, therefore we can use the
 client.destroy_direct_message(client.direct_messages)#delete messages I receieve
 ```
 
-This method also uses ID numbers to delete direct_messages receieve, therefore we pass 
+This method also uses ID numbers to delete direct_messages receieve, therefore we pass
 
 # Timeline 
 After studying methods for direct messages I also learned two more methods that grabs the the tweets on my timeline. 
@@ -114,3 +114,18 @@ end
 ```
 
 This grabs the first tweet on my feed and prints the user screen name and the tweet that they've posted. 
+
+# Obstacle
+When I was messing around with direct message I couldn't get the user's screen name to print out. I tried
+``` ruby
+client.direct_messages.each do |user,message|
+    puts "#{user.name}: #{message.text}"
+end 
+```
+but when I run ruby it shows an error saying  the method `.name` does not exist. It was very fustrating but I couldn't seem to get it to work. 
+
+
+# Takeaways 
+- move on to learning another topic rather than being stuck one one thing 
+- take breaks and try other methods to approach a problem 
+- be determined and pushed through until you accomplished your goal
