@@ -49,7 +49,7 @@ rack: runs a rack task defined in the application
 runner: allows you to input an executable (a file or program able to be run by a computer) piece of code as a string to be run at a particular interval
 command: accepts a script to be run at an interval 
 
-4. Once you edit it you need to update your cron tab. 
+4. Once you edit it you need to update your crontab. 
 
 ``` ruby 
 whenever --update-crontab
@@ -77,6 +77,14 @@ I decided to do a custom runner which uses directory path. To test it out I want
 <img src="../images/whenever_update.png">
 <img src="../images/crontab_list.png">
 
+# Final Project Idea
+I searched up different [twitterbot examples](https://www.digitaltrends.com/social-media/the-10-best-twitter-bots-you-arent-following/669990) and found some common use such as spamming, retweeting, liking and etc. For my Twitterbot, I want to be able to search for the hashtag "inspiring quotes" and then retweet it onto my feed. This would create a page of inspiring quotes so whenever someone is in need of a quote for their Instagram picture then my page would be useful. 
+
 # Sources
 GitHub whenever gem - https://github.com/javan/whenever
 Job Type explanation - https://www.sitepoint.com/schedule-cron-jobs-whenever-gem/
+
+# Takeaway
+- try to set something to work before trying anything complicated 
+- use google to expand on ideas 
+
