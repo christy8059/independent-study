@@ -91,6 +91,6 @@ GitHub whenever gem - https://github.com/javan/whenever
 Job Type explanation - https://www.sitepoint.com/schedule-cron-jobs-whenever-gem/
 
 # Takeaway
-- try to set something to work before trying anything complicated 
+- try to get something to work before trying anything complicated 
 - use google to expand on ideas 
 
