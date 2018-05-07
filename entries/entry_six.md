@@ -87,6 +87,7 @@ I searched up different [twitterbot examples](https://www.digitaltrends.com/soci
 
 # Sources
 GitHub whenever gem - https://github.com/javan/whenever
+
 Job Type explanation - https://www.sitepoint.com/schedule-cron-jobs-whenever-gem/
 
 # Takeaway
