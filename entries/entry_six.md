@@ -24,7 +24,9 @@ This creates a config directory with a file name schedule.rb
 3.  You will write your code in the schedule.rb file. 
 The syntax for when you want to schedule the task would look like this. 
 
-[<img src="../images/cronjob.png">](https://www.sitepoint.com/schedule-cron-jobs-whenever-gem/)
+<img src="../images/cronjob.png">
+
+credit to- https://www.sitepoint.com/schedule-cron-jobs-whenever-gem/
 
 
 Ruby makes it much easier to write the syntax. For example:
