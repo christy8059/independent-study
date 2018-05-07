@@ -14,10 +14,13 @@ gem install whenever
 ```
 
 2. Then initialize whenever in your route directory.
+
 ```ruby
 whenever .
 ```
-    This creates a config directory with a file name schedule.rb 
+
+This creates a config directory with a file name schedule.rb 
+
 3.  You will write your code in the schedule.rb file. 
 The syntax for when you want to schedule the task would look like this. 
 
