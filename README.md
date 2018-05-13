@@ -6,7 +6,7 @@
 + [Entry 4: DirectMessage/Favoriting Tweets](entries/entry_four.md)
 + [Entry 5: DirectMessage](entries/entry_five.md)
 + [Entry 6: Cron Job](entries/entry_six.md)
-+ [Entry 7: ](entries/entry_seven.md)
++ [Entry 7: Scheduler](entries/entry_seven.md)
 + [Entry 8: ](entries/entry_eight.md)
 + [Entry 9: ](entries/entry_nine.md)
 
