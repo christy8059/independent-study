@@ -118,3 +118,11 @@ This will send a direct message to the specific user with the specific message e
 # MVP
 
 After learning how to schedule a ruby task I am now able to make an MVP(minimal,vibal, product). I developed on the idea of looking for a specific hashtag. And from there I would retweet and like the post. 
+
+# Sources
+Github - https://github.com/jmettraux/rufus-scheduler
+
+# Takeaways 
+-When encountering an obstical always keep calm. Take a break or a deep breath before returning to work. This will stimulate the brain to "restart". By doing so you can think through the problem more clearly.
+
+-Look at tutorials to see how it works. Make sure the syntax is correct. 
