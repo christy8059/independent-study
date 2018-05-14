@@ -89,8 +89,6 @@ scheduler.join
 ```
 This will look for a specific tag and take the user's screen name and tweet and tweet it on your account. This will be done every 5 seconds. 
 
-<img src="../images/direct_5s.png">
-
 
 **Example #2**
 ```ruby 
@@ -112,6 +110,8 @@ end
 
 scheduler.join
 ```
+<img src="../images/direct_5s.png">
+
 This will send a direct message to the specific user with the specific message every 5 seconds. 
 
 
