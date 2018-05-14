@@ -17,9 +17,9 @@ To get started...
 ```ruby 
 scheduler = Rufus::Scheduler.new
 ``` 
-3. To schedule some we call on the variable scheduler and attach a method to it.
+3. To schedule something we call on the variable scheduler and attach a method to it.
 
-For the scheduler we can set it to please our likings. If we want to make it every second (s) or minute (m) we can use the method `.every`. This task is looping until you tell it to stop or it crashes. 
+With Scheduler, we can set it to fulfill our commands. If we want to make it every second (s) or minute (m) we can use the method `.every`. This task is looping until you tell it to stop or it crashes. 
 
 **For example:**
 ```ruby 
@@ -74,7 +74,7 @@ client = Twitter::REST::Client.new do |config|
   config.consumer_key        = "YOUR KEY"
   config.consumer_secret     = "YOUR SECRET"
   config.access_token        = "YOUR TOKEN"
-  config.access_token_secret =YOUR TOKEN SECRET" 
+  config.access_token_secret = "YOUR TOKEN SECRET" 
 end
 
 scheduler = Rufus::Scheduler.new
@@ -87,7 +87,7 @@ end
 
 scheduler.join
 ```
-This will look for a specific tag and take the user's screen name and tweet and tweet it on your account. This will be done evert 5 seconds. 
+This will look for a specific tag and take the user's screen name and tweet and tweet it on your account. This will be done every 5 seconds. 
 
 <img src="../images/direct_5s.png">
 
@@ -101,7 +101,7 @@ client = Twitter::REST::Client.new do |config|
   config.consumer_key        = "YOUR KEY"
   config.consumer_secret     = "YOUR SECRET"
   config.access_token        = "YOUR TOKEN"
-  config.access_token_secret =YOUR TOKEN SECRET" 
+  config.access_token_secret = "YOUR TOKEN SECRET" 
 end
 
 scheduler = Rufus::Scheduler.new
@@ -116,8 +116,8 @@ This will send a direct message to the specific user with the specific message e
 
 
 # MVP
+After learning how to schedule a ruby task I am now able to make an MVP(minimum viable product). Example one is my MVP. That is similer to what I want to do. While building my MVP I thought that this would be useful when trying to win giveaways. Therefore, I would change it to look for the hashtag giveaway. Then like and retweet it in order to enter the giveaway. Example 1 is a simple version of my idea. 
 
-After learning how to schedule a ruby task I am now able to make an MVP(minimal,vibal, product). I developed on the idea of looking for a specific hashtag. And from there I would retweet and like the post. 
 
 # Sources
 Github - https://github.com/jmettraux/rufus-scheduler
