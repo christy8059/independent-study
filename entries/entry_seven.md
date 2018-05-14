@@ -17,7 +17,7 @@ To get started...
 ```ruby 
 scheduler = Rufus::Scheduler.new
 ``` 
-3. To schedule something we call on the variable scheduler and attach a method to it.
+3. To schedule something, we call on the scheduler variable and attach a method to it.
 
 With Scheduler, we can set it to fulfill our commands. If we want to make it every second (s) or minute (m) we can use the method `.every`. This task is looping until you tell it to stop or it crashes. 
 
@@ -123,6 +123,6 @@ After learning how to schedule a ruby task I am now able to make an MVP(minimum 
 Github - https://github.com/jmettraux/rufus-scheduler
 
 # Takeaways 
--When encountering an obstical always keep calm. Take a break or a deep breath before returning to work. This will stimulate the brain to "restart". By doing so you can think through the problem more clearly.
+-When encountering an obstacle always keep calm. Take a break or a deep breath before returning to work. This will stimulate the brain to "restart". By doing so you can think through the problem more clearly.
 
 -Look at tutorials to see how it works. Make sure the syntax is correct. 
