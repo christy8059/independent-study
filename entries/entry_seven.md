@@ -12,7 +12,7 @@ To get started...
 
 1. In your ruby file require the gem `rufus-scheduler`. 
 
-2. Then create a new variable. You can call it scheduler or anything approperate. By doing so we are calling on a variable giving it a specific command. 
+2. Then create a new variable. You can call it scheduler or anything appropriate. By doing so we are calling on a variable giving it a specific command. 
 
 ```ruby 
 scheduler = Rufus::Scheduler.new
@@ -48,7 +48,7 @@ end
 ```
 
 
-4. We finish off with `scheduler.join`. This wil let the current thread join the scheduler thread. 
+4. We finish off with `scheduler.join`. This will let the current thread join the scheduler thread. 
 
 A complete scheduler would look like this 
 
@@ -87,7 +87,10 @@ end
 
 scheduler.join
 ```
+<img src="../images/bot1.mp4">
+
 This will look for a specific tag and take the user's screen name and tweet and tweet it on your account. This will be done every 5 seconds. 
+
 
 
 **Example #2**
@@ -116,7 +119,7 @@ This will send a direct message to the specific user with the specific message e
 
 
 # MVP
-After learning how to schedule a ruby task I am now able to make an MVP(minimum viable product). Example one is my MVP. That is similer to what I want to do. While building my MVP I thought that this would be useful when trying to win giveaways. Therefore, I would change it to look for the hashtag giveaway. Then like and retweet it in order to enter the giveaway. Example 1 is a simple version of my idea. 
+After learning how to schedule a ruby task I am now able to make an MVP(minimum viable product). Example one is my MVP. That is similar to what I want to do. While building my MVP I thought that this would be useful when trying to win giveaways. Therefore, I would change it to look for the hashtag giveaway. Then like and retweet it in order to enter the giveaway. Example 1 is a simple version of my idea. 
 
 
 # Sources
