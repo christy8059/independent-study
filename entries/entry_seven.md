@@ -87,7 +87,7 @@ end
 
 scheduler.join
 ```
-<img src="../images/bot1.mp4">
+![](bot1.mp4)
 
 This will look for a specific tag and take the user's screen name and tweet and tweet it on your account. This will be done every 5 seconds. 
 
