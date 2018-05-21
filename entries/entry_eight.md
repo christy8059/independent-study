@@ -80,7 +80,7 @@ The next place I tried was [Heroku](https://dashboard.heroku.com/apps). I tried 
 Which I then installed the ruby buildpack using the command `heroku buildpacks:set heroku/ruby` and ran the command `git push heroku master`. Unfortunately, this did not work as well. 
 
 
-I decided to not deploy it because I can simply run it on c9 which is also convenient and easy to do. Simple I would have to run `ruby file-name`. This will run until it crashes or if I choose to exit(stop) it by using the command `control + c`.
+I decided to not deploy it because I can simply run it on c9 which is also convenient and easy to do. To run the bot I would use the command `ruby file-name`. This will run until it crashes or if I choose to stop it by using the command `control + c`.
 
 # Takeaways
 - When one method doesn't work, try another method. 
