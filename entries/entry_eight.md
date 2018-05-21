@@ -1,8 +1,7 @@
-# Making it pretty
+# Packaging the TwitterBot
+Before deploying it on a server, I wanted to fix the syntax of the bot. The function of the bot is to search for the hashtag "giveaway" and repost it. I thought that this would be a useful bot because I would be able to win give aways.
 
-Before deploying it on a server, I wanted to fix the syntax of the bot. The function of the bot is to search for the hashtag "giveaway" and repost it. I thought that this would be a good bot because a lot of times when I see giveaways, I never win. 
-
-The syntax for my MVP has a similar function but it does not exactly retweet it. It takes the user's screen name and the text and tweets it on my page as a tweet. This was a working code but I actually wanted the code to retweet instead. Therefore, I google the retweet method which I got `.retweet`. 
+The syntax for my MVP has a similar function but it does not exactly retweet specific posts. It takes the user's screen name plus the text and tweets it on my page. This was a working code but I actually wanted the code to retweet Therefore, I google the retweet method which I got `.retweet`. 
 
 **MVP Code (BEFORE):**
 
@@ -58,10 +57,9 @@ After adjusting the code to function the way I want, I can deploy it onto a serv
 
 # Deploying 
 
-First, I tried to use [repl.it](https://repl.it/) since it recently updated allowing users to use gems. I came across a dead end because my gems did not work. 
+First, I tried to use [repl.it](https://repl.it/) to deploy since it recently updated allowing users to use gems.
 
-In order to use gems we need the following code 
-
+In order to use gems we need the following code: 
 ```ruby
 require 'bundler/inline'
 
@@ -73,11 +71,13 @@ end
 
 [<img src="../images/repl.png">](https://repl.it/repls/SurprisedRingedSearch)
 
-Unfortunately, I got an error and can't seem to figure out why. So I googled where and how can deploy my twitter bot. 
+Unfortunately, I got an error and can't seem to figure out why.I tried googling the error but nothing seems to help. 
 
-Then I tried deploying it on Heroku but it did not work as well. 
+The next place I tried was [Heroku](https://dashboard.heroku.com/apps). I tried deploying by connecting to github and through heroku git, but I got another error. It gave me the error saying "no default language could be detected for this app."
 
-Throughout the week I will try to figure out how to deploy it. If I can not figure out a way then I will run it on Cloud9. Since I have the scheduler gem I am able to set it to run at a certain time. 
+<img src="../images/heroku-error.png">
+
+Which I then installed the ruby buildpack using the command `heroku buildpacks:set heroku/ruby` and ran the command `git push heroku master`. Unfortunately, this did not work as well. I will continue to look for different ways to deploy the twitter bot. If I can't seem to figure out a way then I will run it on Cloud9. Since I have the scheduler gem I am able to set it to run at a certain time. I know this might be the most convient way but that it a working idea. 
 
 # Takeaways
 - When one method doesn't work, try another method. 
