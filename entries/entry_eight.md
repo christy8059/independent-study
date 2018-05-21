@@ -1,8 +1,10 @@
+# Making it pretty
+
 Before deploying it on a server, I wanted to fix the syntax of the bot. The function of the bot is to search for the hashtag "giveaway" and repost it. I thought that this would be a good bot because a lot of times when I see giveaways, I never win. 
 
 The syntax for my MVP has a similar function but it does not exactly retweet it. It takes the user's screen name and the text and tweets it on my page as a tweet. This was a working code but I actually wanted the code to retweet instead. Therefore, I google the retweet method which I got `.retweet`. 
 
-**MVP Code(BEFORE):**
+**MVP Code (BEFORE):**
 
 ``` ruby 
 require 'rufus-scheduler'
@@ -27,7 +29,7 @@ scheduler.join
 ```
 Looks for the hashtag, then takes each tweet and take username and tweet and tweet it on my page. 
 
-**FINAL Code(AFTER):**
+**FINAL Code (AFTER):**
 
 ``` ruby 
 require 'rufus-scheduler'
@@ -52,8 +54,6 @@ end
 scheduler.join
 ```
 Looks for the hashtag, then takes each and retweets it. 
-
-
 After adjusting the code to function the way I want, I can deploy it onto a server so that it will run without having to type the command `ruby filename.rb`. 
 
 # Deploying 
@@ -65,7 +65,7 @@ In order to use gems we need the following code
 ```ruby
 require 'bundler/inline'
 
-gemfile true do
+gemfile true do 
  source 'http://rubygems.org'
  gem ' ' #gem name 
 end
@@ -74,3 +74,11 @@ end
 [<img src="../images/repl.png">](https://repl.it/repls/SurprisedRingedSearch)
 
 Unfortunately, I got an error and can't seem to figure out why. So I googled where and how can deploy my twitter bot. 
+
+Then I tried deploying it on Heroku but it did not work as well. 
+
+Throughout the week I will try to figure out how to deploy it. If I can not figure out a way then I will run it on Cloud9. Since I have the scheduler gem I am able to set it to run at a certain time. 
+
+# Takeaways
+- When one method doesn't work, try another method. 
+- Keep googling to see what different options there are.  
