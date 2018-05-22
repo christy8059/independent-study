@@ -8,6 +8,6 @@
 + [Entry 6: Cron Job](entries/entry_six.md)
 + [Entry 7: Scheduler](entries/entry_seven.md)
 + [Entry 8: Deploying](entries/entry_eight.md)
-+ [Entry 9: ](entries/entry_nine.md)
++ [Entry 9: Presentations](entries/entry_nine.md)
 
 
