@@ -14,8 +14,11 @@ Although the product is done, the project is still incomplete. For presentation,
 1. What the product is/ What is it for. 
 2. How I got to the idea. 
 3. The major component to make the product.  
-4. The type of function it can do
-5. And the result of the project.
+4. The type of methods to do different function
+5. MVP--> Product
+5. And the result of the project. 
+
+Here is the link to [presentation](https://docs.google.com/presentation/d/11YfqLHhLeEaidDrLBBAY1oB_bvfIZNQTtrU2LlUwMa0/edit?usp=sharing)
 
 
 Throughout this independent lesson, I learned a lot. I learned to be independent on learning and figuring out the problems that occurred. This unit was like a pre-transition lesson because when I'm in college I'll have to do the same thing. I won't have a lot of resources to help me besides the internet. This is because someone has gone through the same situation as me before while learning about Twitter. Therefore issues that I have encountered or will encounter will surely be on the internet.  
